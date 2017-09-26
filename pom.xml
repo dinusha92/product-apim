@@ -32,9 +32,9 @@
     <name>WSO2 API Manager - Aggregator Module</name>
 
     <scm>
-        <url>https://github.com/wso2/product-apim.git</url>
-        <developerConnection>scm:git:https://github.com/wso2/product-apim.git</developerConnection>
-        <connection>scm:git:https://github.com/wso2/product-apim.git</connection>
+        <url>https://github.com/dinusha92/product-apim.git</url>
+        <developerConnection>scm:git:https://github.com/dinusha92/product-apim.git</developerConnection>
+        <connection>scm:git:https://github.com/dinusha92/product-apim.git</connection>
         <tag>HEAD</tag>
     </scm>
 
@@ -182,7 +182,7 @@
     </dependencyManagement>
 
     <properties>
-	<carbon.apimgt.version>7.0.41-SNAPSHOT</carbon.apimgt.version>
+	<carbon.apimgt.version>7.0.41</carbon.apimgt.version>
 	<product.apim.version>3.0.0-SNAPSHOT</product.apim.version>
         <!-- Maven plugins -->
         <maven.checkstyleplugin.version>2.16</maven.checkstyleplugin.version>
@@ -226,6 +226,7 @@
         <javax.cache-api.version>1.0.0</javax.cache-api.version>
         <carbon.lcm.version>1.1.1</carbon.lcm.version>
         <carbon.deployment.version>5.1.0</carbon.deployment.version>
+        <gpg.skip>true</gpg.skip>
     </properties>
 
     <modules>
